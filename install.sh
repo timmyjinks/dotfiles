@@ -19,3 +19,6 @@ cp -v $HOME/dotfiles/.config/kitty/kitty.conf $HOME/.config/kitty/
 mkdir $HOME/.config/polybar
 cp -v $HOME/dotfiles/.config/polybar/config.ini $HOME/.config/polybar/
 cp -v $HOME/dotfiles/.config/polybar/launch.sh $HOME/.config/polybar/
+
+#end
+echo "...Installation complete"
