@@ -5,7 +5,7 @@ echo "Starting installation of dotfiles..."
 
 #bspwm
 mkdir $HOME/.config/bspwm
-cp -v $HOME/.config/bspwm/bspwmrc $HOME/.config/bspwm/
+cp -v $HOME/dotfiles/.config/bspwm/bspwmrc $HOME/.config/bspwm/
 
 #sxhkd
 mkdir $HOME/.config/sxhkd
