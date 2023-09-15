@@ -1,10 +1,6 @@
 #! /bin/sh
 
-sxhkd &
-$HOME/.config/polybar/launch.sh
-pgrep -x volumeicon || volumeicon &
-picom &
-wal -i $HOME/Pictures/
+$HOME/.config/bspwm/autostart.sh
 
 bspc monitor -d I II III IV V
 
