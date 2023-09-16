@@ -19,6 +19,7 @@ Print
 #browser
 super + F2
 	brave
+	
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
