@@ -4,6 +4,7 @@
 echo "Starting installation of dotfiles..."
 
 # zsh
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
 cp -v $HOME/dotfiles/.zshrc $HOME/
 
 # nvim
